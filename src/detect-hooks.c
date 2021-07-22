@@ -7,7 +7,7 @@
 /*BOF Entry Point*/
 void go(char* args, int length) {//Attempts to detect userland hooks by AV/EDR
 
-    //Variables
+        //Variables
 	size_t size = 65535;
 	char* returnData = (char*)intAlloc(size);
 	memset(returnData, 0, size);
